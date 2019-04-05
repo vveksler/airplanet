@@ -1,0 +1,40 @@
+.main_active, .team, .team_active, .feed, .feed_active, .main{
+	background: url(sprites.png) no-repeat;
+}
+
+.main_active{
+	background-position: -49.99609375px 0;
+	width: 17px;
+	height: 18px;
+}
+
+.team{
+	background-position: 0 -50px ;
+	width: 23px;
+	height: 18px;
+}
+
+.team_active{
+	background-position: -49.99609375px -50px ;
+	width: 23px;
+	height: 18px;
+}
+
+.feed{
+	background-position: -100px 0;
+	width: 20px;
+	height: 18px;
+}
+
+.feed_active{
+	background-position: -149.99609375px 0;
+	width: 20px;
+	height: 18px;
+}
+
+.main{
+	background-position: 0 0;
+	width: 17px;
+	height: 18px;
+}
+

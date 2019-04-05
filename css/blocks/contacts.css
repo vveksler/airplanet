@@ -1,0 +1,27 @@
+.contacts {
+  position: relative;
+  text-align: right;
+}
+
+.contacts__tel {
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.contacts__schedule {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.7;
+  text-decoration: underline;
+  transition: .3s;
+}
+
+.contacts__schedule:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.contacts__dropdown {
+  display: none;
+}

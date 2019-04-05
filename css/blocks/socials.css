@@ -1,0 +1,54 @@
+.socials {
+  padding-top: 5px;
+  display: inline-block;
+  text-align: left;
+}
+
+.socials__title {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.socials__item {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../../images/social_icons/css_sprites.png");
+  background-color: #d2def3;
+  background-repeat: no-repeat;
+  transition: 0.3s;
+}
+
+.socials__link:hover {
+  background-color: #ffffff;
+}
+
+.socials__link_vk {
+  background-position: -6px -31px;
+}
+
+.socials__link_fb {
+  background-position: -3px -70px;
+}
+
+.socials__link_google {
+  background-position: -7px 5px;
+}
+
+.socials__link_tw {
+  background-position: -5px -49px;
+}
+
+.socials__link_mail {
+  background-position: -6px -13px;
+}

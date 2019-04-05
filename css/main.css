@@ -1,0 +1,15 @@
+@import url("./layout/normalize.css");
+@import url("./layout/base.css");
+@import url("./layout/fonts.css");
+
+@import url("./blocks/header.css");
+@import url("./blocks/contacts.css");
+@import url("./blocks/sidebar.css");
+@import url("./blocks/main-nav.css");
+@import url("./blocks/banner.css");
+@import url("./blocks/tariffs.css");
+@import url("./blocks/last-news.css");
+@import url("./blocks/article.css");
+@import url("./blocks/pagination.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/socials.css");

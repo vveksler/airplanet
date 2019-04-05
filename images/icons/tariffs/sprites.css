@@ -1,0 +1,22 @@
+.standard, .favorite, .luxury{
+	background: url(sprites.png) no-repeat;
+}
+
+.standard{
+	background-position: -100px 0;
+	width: 27px;
+	height: 31px;
+}
+
+.favorite{
+	background-position: -51px 0;
+	width: 32px;
+	height: 32px;
+}
+
+.luxury{
+	background-position: 0 0;
+	width: 28px;
+	height: 29px;
+}
+

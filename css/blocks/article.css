@@ -1,0 +1,42 @@
+.article {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.article__avatar {
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.article__description {
+  padding: 0 18px;
+
+  flex: 1;
+}
+
+.article__avatar-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.article__date {
+  font-size: 14px;
+  font-weight: 300;
+  color: #656464;
+}
+
+.article__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.article__text {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
