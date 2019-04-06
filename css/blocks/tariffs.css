@@ -1,7 +1,7 @@
 .tariffs__options {
   display: flex;
-  margin-top: 24px;
-  margin-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 36px;
 }
 
 .tariffs__plan {
@@ -55,10 +55,10 @@
 }
 
 .tariffs__plan-description {
-  padding: 18px 0 12px 0;
+  padding: 18px 0 8px 0;
   font-size: 18px;
   font-weight: 300;
-  line-height: 33px;
+  line-height: 30px;
 }
 
 .tariffs__plan-price {
@@ -72,7 +72,7 @@
 
 .tariffs__plan-item {
   position: relative;
-  padding-left: 16px;
+  padding: 3px 0 3px 16px;
 }
 
 .tariffs__plan-item::before {

@@ -1,5 +1,4 @@
 .socials {
-  padding-top: 5px;
   display: inline-block;
   text-align: left;
 }
@@ -11,6 +10,7 @@
 
 .socials__item {
   display: inline-block;
+  vertical-align: middle;
   margin-right: 7px;
 }
 
@@ -19,36 +19,36 @@
 }
 
 .socials__link {
-  width: 20px;
-  height: 20px;
   border-radius: 50%;
   display: block;
-  background-image: url("../../images/social_icons/css_sprites.png");
+  background: url("../../images/icons/socials/socials-sprites.png") no-repeat;
   background-color: #d2def3;
   background-repeat: no-repeat;
   transition: 0.3s;
+  width: 20px;
+  height: 20px;
 }
 
 .socials__link:hover {
   background-color: #ffffff;
 }
 
-.socials__link_vk {
-  background-position: -6px -31px;
+.socials__link--vk {
+  background-position: 4px 4px;
 }
 
-.socials__link_fb {
-  background-position: -3px -70px;
+.socials__link--fb {
+  background-position: -92px 3px;
 }
 
-.socials__link_google {
-  background-position: -7px 5px;
+.socials__link--google {
+  background-position: -72px 3px;
 }
 
-.socials__link_tw {
-  background-position: -5px -49px;
+.socials__link--tw {
+  background-position: -20px 3px;
 }
 
-.socials__link_mail {
-  background-position: -6px -13px;
+.socials__link--mail {
+  background-position: -46px 3px;
 }

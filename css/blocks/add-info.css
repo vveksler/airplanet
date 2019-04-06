@@ -1,0 +1,23 @@
+.add-info {
+  background-color: #4bb56b;
+  background-image: url("../../images/signs.png");
+  margin-bottom: 8px;
+}
+
+.add-info__content {
+  padding: 39px 210px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.add-info__content a {
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.add-info__content a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}

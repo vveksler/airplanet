@@ -7,6 +7,11 @@
   display: block;
   font-size: 21px;
   font-weight: bold;
+  transition: 0.3s;
+}
+
+.contacts__tel:hover {
+  opacity: 0.7;
 }
 
 .contacts__schedule {
@@ -14,7 +19,7 @@
   font-weight: bold;
   opacity: 0.7;
   text-decoration: underline;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .contacts__schedule:hover {
@@ -22,6 +27,56 @@
   text-decoration: none;
 }
 
+.contacts__schedule:hover .contacts__dropdown {
+  opacity: 1;
+  right: 0;
+}
+
 .contacts__dropdown {
-  display: none;
+  position: absolute;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  width: 95%;
+  padding: 14px 0;
+  line-height: 25px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(122, 122, 122, 0.5);
+  right: -9999px;
+  opacity: 0;
+  top: 68px;
+  transition: opacity 1s;
+}
+
+.contacts__dropdown:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -25px;
+  content: "";
+  height: 27px;
+}
+
+.contacts__dropdown-text {
+  color: #221f1f;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.contacts__dropdown-text-blue {
+  color: #4b73b5;
+  font-weight: bold;
+}
+
+.contacts__dropdown-triangle {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-top: 15px solid #fff;
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 0;
+  transform: rotate(180deg);
+  bottom: 100%;
 }

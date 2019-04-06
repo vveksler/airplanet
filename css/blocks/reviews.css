@@ -1,0 +1,13 @@
+.reviews {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.reviews__articles {
+  margin-bottom: 22px;
+  margin-top: 7px;
+}
+
+.reviews__pagination {
+  margin-left: 220px;
+}

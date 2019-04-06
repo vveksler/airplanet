@@ -1,0 +1,34 @@
+.fb, .google, .mail, .twitter, .vk{
+	background: url(sprites.png) no-repeat;
+}
+
+.fb{
+	background-position: -99.99999237060547px 0;
+	width: 6px;
+	height: 13px;
+}
+
+.google{
+	background-position: -75px -2px ;
+	width: 15px;
+	height: 9px;
+}
+
+.mail{
+	background-position: -50px -2px ;
+	width: 12px;
+	height: 9px;
+}
+
+.twitter{
+	background-position: -25.99249267578125px -2px ;
+	width: 11px;
+	height: 9px;
+}
+
+.vk{
+	background-position: 0 -3px ;
+	width: 12px;
+	height: 7px;
+}
+
