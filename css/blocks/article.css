@@ -8,6 +8,10 @@
   margin-bottom: 4px;
 }
 
+.article__item:last-child {
+  border: none;
+}
+
 .article__avatar {
   overflow: hidden;
   border-radius: 50%;
