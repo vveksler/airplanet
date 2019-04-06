@@ -1,3 +1,11 @@
+.main-nav__item {
+  margin-bottom: 26px;
+}
+
+.main-nav__item:last-child {
+  margin-bottom: 0;
+}
+
 .main-nav__link {
   color: #4b73b5;
   padding-left: 36px;
@@ -5,57 +13,55 @@
   font-weight: bold;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  transition: .3s;
-}
-
-.main-nav__link:hover.main-nav__icon--main::before {
-  background-position: -17px 0;
-}
-
-.main-nav__link:hover.main-nav__icon--feed::before {
-  background-position: -54px 0;
-}
-
-.main-nav__link:hover.main-nav__icon--team::before {
-  background-position: -97px 0;
-}
-
-.main-nav__link:hover  {
-  color: #221f1f;
-}
-
-.main-nav__item {
-  margin-bottom: 26px;
-}
-
-.main-nav__item.active .main-nav__link {
-  color: #221f1f;
-}
-
-.main-nav__item:last-child {
-  margin-bottom: 0;
+  transition: 0.3s;
 }
 
 .main-nav__icon {
   position: relative;
 }
 
-.main-nav__icon::before {
+.main-nav__icon::before,
+.main-nav__icon::after {
   left: 0;
   top: -2px;
   content: "";
   position: absolute;
   background: url("../../images/icons/main-nav/sprites.png") no-repeat;
+  transition: 0.3s;
+}
+
+.main-nav__item .main-nav__icon--main::after,
+.main-nav__item .main-nav__icon--feed::after,
+.main-nav__item .main-nav__icon--team::after {
+  opacity: 0;
+}
+
+/* Активный элемент */
+
+.main-nav__item.active .main-nav__link {
+  color: #221f1f;
+}
+
+.main-nav__item.active .main-nav__icon--main::after,
+.main-nav__item.active .main-nav__icon--feed::after,
+.main-nav__item.active .main-nav__icon--team::after {
+  opacity: 1;
+}
+
+/* Изменение по ховер - наведению курсора мышки */
+
+.main-nav__link:hover {
+  color: #221f1f;
+}
+
+.main-nav__link:hover.main-nav__icon--main::after,
+.main-nav__link:hover.main-nav__icon--feed::after,
+.main-nav__link:hover.main-nav__icon--team::after {
+  opacity: 1;
 }
 
 .main-nav__icon--main::before {
   background-position: 0 0;
-  width: 17px;
-  height: 18px;
-}
-
-.main-nav__item.active .main-nav__icon--main::before {
-  background-position: -17px 0;
   width: 17px;
   height: 18px;
 }
@@ -66,19 +72,28 @@
   height: 18px;
 }
 
-.main-nav__item.active .main-nav__icon--feed::before {
-  background-position: -54px 0;
-  width: 20px;
-  height: 18px;
-}
-
 .main-nav__icon--team::before {
   background-position: -74px 0;
   width: 23px;
   height: 18px;
 }
 
-.main-nav__item.active .main-nav__icon--team::before {
+.main-nav__icon--main::after {
+  opacity: 0;
+  background-position: -17px 0;
+  width: 17px;
+  height: 18px;
+}
+
+.main-nav__icon--feed::after {
+  opacity: 0;
+  background-position: -54px 0;
+  width: 20px;
+  height: 18px;
+}
+
+.main-nav__icon--team::after {
+  opacity: 0;
   background-position: -97px 0;
   width: 23px;
   height: 18px;
