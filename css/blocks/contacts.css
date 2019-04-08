@@ -37,15 +37,19 @@
   border-radius: 5px;
   border-top-right-radius: 0;
   width: 95%;
-  padding: 14px 0;
+  padding: 9px 0;
   line-height: 25px;
-  text-align: center;
+  text-align: initial;
   background-color: #fff;
-  box-shadow: 0 0 20px rgba(122, 122, 122, 0.5);
+  box-shadow: 5px 5px 5px rgba(122, 122, 122, 0.2);
   right: -9999px;
   opacity: 0;
   top: 68px;
   transition: opacity 1s;
+}
+
+.contacts__dropdown-content {
+  padding: 0 21px;
 }
 
 .contacts__dropdown:before {
@@ -69,10 +73,10 @@
 }
 
 .contacts__dropdown-triangle {
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
   border-bottom: 0 solid transparent;
-  border-top: 15px solid #fff;
+  border-top: 12px solid #fff;
   width: 0;
   height: 0;
   position: absolute;

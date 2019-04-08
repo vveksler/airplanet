@@ -9,21 +9,20 @@
   border: none;
 }
 
-.article__avatar {
+.article__left {
   max-width: 160px;
-  margin: auto auto 15px auto;
+  width: 18.5%;
+  margin-bottom: 15px;
+}
+
+.article__avatar {
   overflow: hidden;
   border-radius: 50%;
 }
 
 .article__description {
-  padding: 0 18px;
-
-  flex: 1;
-}
-
-.article__avatar-img {
-  object-fit: cover;
+  width: 81.5%;
+  padding-left: 22px;
 }
 
 .article__date {

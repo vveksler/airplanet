@@ -38,7 +38,7 @@
           </div>
         </div>
       </div>
-      <!--MAIN-->
+      <!--MAIN CONTENT-->
       <div class="maincontent">
         <div class="container container--main">
           <!--SIDEBAR-->
@@ -63,7 +63,7 @@
                 </li>
                 <li class="main-nav__item">
                   <a
-                    href="#"
+                    href="./team.html"
                     class="main-nav__link main-nav__icon
                     main-nav__icon--team">
                     Экипаж
@@ -89,12 +89,11 @@
               </h2>
               <ul class="reviews__articles">
                 <li class="article">
-                  <div class="article__avatar">
-                    <img
-                      src="./images/avatars/reviews/avatar_1.jpg"
-                      alt="avatar"
-                      class="article__avatar-img"
-                      />
+                  <div class="article__left">
+                    <div class="article__avatar">
+                      <img src="./images/avatars/reviews/avatar_1.jpg"
+                        alt="avatar" class="article__avatar-img" />
+                    </div>
                   </div>
                   <article class="article__description">
                     <span class="article__date">
@@ -115,13 +114,10 @@
                   </article>
                 </li>
                 <li class="article">
-                  <div class="article__avatar">
-                    <img
-                      src="./images/avatars/reviews/avatar_2.jpg"
-                      alt="avatar"
-                      class="article__avatar-img"
-                      />
-                  </div>
+                  <div class="article__left"><div class="article__avatar">
+                      <img src="./images/avatars/reviews/avatar_2.jpg"
+                        alt="avatar" class="article__avatar-img" />
+                    </div></div>
                   <article class="article__description">
                     <span class="article__date">
                       01.02.2016
@@ -140,13 +136,10 @@
                   </article>
                 </li>
                 <li class="article">
-                  <div class="article__avatar">
-                    <img
-                      src="./images/avatars/reviews/avatar_3.jpg"
-                      alt="avatar"
-                      class="article__avatar-img"
-                      />
-                  </div>
+                  <div class="article__left"><div class="article__avatar">
+                      <img src="./images/avatars/reviews/avatar_3.jpg"
+                        alt="avatar" class="article__avatar-img" />
+                    </div></div>
                   <article class="article__description">
                     <span class="article__date">
                       22.12.2015
@@ -166,12 +159,11 @@
                   </article>
                 </li>
                 <li class="article">
-                  <div class="article__avatar">
-                    <img
-                      src="./images/avatars/reviews/avatar_4.jpg"
-                      alt="avatar"
-                      class="article__avatar-img"
-                      />
+                  <div class="article__left">
+                    <div class="article__avatar">
+                      <img src="./images/avatars/reviews/avatar_4.jpg"
+                        alt="avatar" class="article__avatar-img" />
+                    </div>
                   </div>
                   <article class="article__description">
                     <span class="article__date">
@@ -242,75 +234,57 @@
         <div class="reviews-form__container">
           <div class="form__wrap">
             <form action="form.php" class="form">
-              <h2 class="section-title">
-                Оставить отзыв
-              </h2>
-              <div class="form__content">
-                <div class="form__row">
-                  <label class="form__field">
-                    <span class="form__field-title">Ваше имя</span>
-                    <input
-                      type="text"
-                      name="name"
-                      class="form__input"
-                      placeholder="Андрей"
-                      />
-                  </label>
-                  <label class="form__field">
-                    <span class="form__field-title">Ссылка на профиль VK</span>
-                    <input
-                      type="text"
-                      name="social"
-                      class="form__input"
-                      placeholder="vk.com/example"
-                      />
-                  </label>
-                </div>
-                <div class="form__row">
-                  <label class="form__field form__field--textarea">
-                    <span class="form__field-title">Текст отзыва</span>
-                    <textarea
-                      name="text-message"
-                      class="form__textarea"
-                      placeholder="Мне понравилось"></textarea>
-                  </label>
-                </div>
-                <div class="form__row">
-                  <div class="form__field">
-                    <span class="form__field-title">Отображать фото в отзыве?</span>
-                    <div class="form__radio-btns">
-                      <label for="yes" class="form__radio-trigger">
-                        <input
-                          type="radio"
-                          id="yes"
-                          name="photo"
-                          class="visuallyHidden"
-                          />
-                        <span class="form__radio-trigger_custom"></span>
-                        <span class="form__radio-trigger_title">Да</span>
-                      </label>
-                      <label for="no" class="form__radio-trigger">
-                        <input
-                          type="radio"
-                          id="no"
-                          name="photo"
-                          class="visuallyHidden"
-                          />
-                        <span class="form__radio-trigger_custom"></span>
-                        <span class="form__radio-trigger_title">Нет</span>
+              <div class="form__inner">
+                <h2 class="section-title">
+                  Оставить отзыв
+                </h2>
+                <div class="form__content">
+                  <div class="form__row">
+                    <label class="form__field">
+                      <span class="form__field-title">Ваше имя</span>
+                      <input type="text" name="name" class="form__input"
+                        placeholder="Андрей" />
+                    </label>
+                    <label class="form__field">
+                      <span class="form__field-title">Ссылка на профиль VK</span>
+                      <input type="text" name="social" class="form__input"
+                        placeholder="vk.com/example" />
+                    </label>
+                  </div>
+                  <div class="form__row">
+                    <label class="form__field form__field--textarea">
+                      <span class="form__field-title">Текст отзыва</span>
+                      <textarea name="text-message" class="form__textarea"
+                        placeholder="Мне понравилось"></textarea>
+                    </label>
+                  </div>
+                  <div class="form__row">
+                    <div class="form__field">
+                      <span class="form__field-title">Отображать фото в отзыве?</span>
+                      <div class="form__radio-btns">
+                        <label for="yes" class="form__radio-trigger">
+                          <input type="radio" id="yes" name="photo"
+                            class="visuallyHidden" />
+                          <span class="form__radio-trigger_custom"></span>
+                          <span class="form__radio-trigger_title">Да</span>
+                        </label>
+                        <label for="no" class="form__radio-trigger">
+                          <input type="radio" id="no" name="photo"
+                            class="visuallyHidden" />
+                          <span class="form__radio-trigger_custom"></span>
+                          <span class="form__radio-trigger_title">Нет</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form__btns">
+                      <label for="send-btn" class="form__send-btn">
+                        <button class="visuallyHidden" type="submit"
+                          id="send-btn">
+                          Отправить
+                        </button>
+                        <span class="form__btn-custom">Отправить</span>
                       </label>
                     </div>
-                  </div>
-                  <div class="form__btns">
-                    <label for="send-btn" class="form__send-btn">
-                      <button
-                        class="visuallyHidden"
-                        type="submit"
-                        id="send-btn">
-                        Отправить
-                      </button>
-                      <span class="form__btn-custom">Отправить</span>
-                    </label>
                   </div>
                 </div>
               </div>
