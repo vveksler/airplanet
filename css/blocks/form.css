@@ -68,6 +68,10 @@
   display: inline-block;
 }
 
+.form__radio-trigger:last-child {
+  margin-right: 0;
+}
+
 .form__radio-trigger_custom {
   margin-right: 2px;
   vertical-align: middle;

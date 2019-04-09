@@ -1,0 +1,26 @@
+.partners {
+  margin-bottom: 4px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 33px 0;
+  width: 31%;
+  margin-right: 2.33%;
+}
+
+.partners__link {
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}
