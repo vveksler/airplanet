@@ -1,14 +1,18 @@
 .reviews {
-  margin-top: 6px;
-  margin-bottom: 5px;
+  margin-top: 8px;
+  margin-bottom: 4px;
   padding-right: 20px;
 }
 
 .reviews__articles {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   margin-top: 7px;
 }
 
+.reviews__articles .article__description {
+  padding-left: 21px;
+}
+
 .reviews__pagination {
-  margin-left: 223px;
+  margin-left: 220px;
 }

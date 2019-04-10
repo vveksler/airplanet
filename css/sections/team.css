@@ -11,32 +11,31 @@
 }
 
 .team__item {
-  position: relative;
   width: 32%;
-  text-align: center;
   padding: 22px 0;
 }
 
 .team__avatar {
+  cursor: pointer;
   width: 160px;
   height: 160px;
+  margin: auto;
   position: relative;
   border-radius: 50%;
-  display: inline-block;
   overflow: hidden;
-  margin-bottom: 13px;
 }
 
 .team__avatar-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 .team__avatar::before {
-  cursor: pointer;
   content: "";
   position: absolute;
+  border-radius: 50%;
   background-color: rgba(75, 115, 181, 0.6);
   left: 0;
   top: 0;
@@ -54,7 +53,6 @@
 }
 
 .team__avatar-title {
-  cursor: pointer;
   color: #fff;
   opacity: 1;
   font-size: 24px;
@@ -69,6 +67,7 @@
 .team__content {
   text-align: center;
   padding: 0 12px;
+  margin-top: 19px;
 }
 
 .team__content-title {

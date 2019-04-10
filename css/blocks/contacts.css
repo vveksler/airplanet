@@ -22,6 +22,12 @@
   transition: 0.3s;
 }
 
+.contacts__dropdown {
+  width: 95%;
+  top: 68px;
+  padding: 9px 0;
+}
+
 .contacts__schedule:hover {
   opacity: 1;
   text-decoration: none;
@@ -30,57 +36,4 @@
 .contacts__schedule:hover .contacts__dropdown {
   opacity: 1;
   right: 0;
-}
-
-.contacts__dropdown {
-  position: absolute;
-  border-radius: 5px;
-  border-top-right-radius: 0;
-  width: 95%;
-  padding: 9px 0;
-  line-height: 25px;
-  text-align: initial;
-  background-color: #fff;
-  box-shadow: 5px 5px 5px rgba(122, 122, 122, 0.2);
-  right: -9999px;
-  opacity: 0;
-  top: 68px;
-  transition: opacity 1s;
-}
-
-.contacts__dropdown-content {
-  padding: 0 21px;
-}
-
-.contacts__dropdown:before {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -24px;
-  content: "";
-  height: 27px;
-}
-
-.contacts__dropdown-text {
-  color: #221f1f;
-  font-weight: 300;
-  display: inline-block;
-}
-
-.contacts__dropdown-text-blue {
-  color: #4b73b5;
-  font-weight: bold;
-}
-
-.contacts__dropdown-triangle {
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-bottom: 0 solid transparent;
-  border-top: 12px solid #fff;
-  width: 0;
-  height: 0;
-  position: absolute;
-  right: 0;
-  transform: rotate(180deg);
-  bottom: 100%;
 }

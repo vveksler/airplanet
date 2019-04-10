@@ -1,19 +1,23 @@
 .tariffs__options {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 36px;
+  padding: 20px 6px 32px 6px;
 }
 
 .tariffs__plan {
+  border-radius: 4px;
   display: flex;
-  margin-right: 12px;
-  padding: 40px 38px;
+  margin-right: 25px;
+  padding: 43px 32px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   border: 1px solid transparent;
   transition: 0.3s;
+}
+
+.tariffs__plan:last-child {
+  margin-right: 0;
 }
 
 .tariffs__plan:hover {
@@ -50,15 +54,19 @@
 }
 
 .tariffs__plan-content {
-  margin-top: 28px;
+  margin-top: 31px;
   text-align: center;
 }
 
 .tariffs__plan-description {
-  padding: 18px 0 8px 0;
+  padding: 16px 0 8px 0;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+}
+
+.tariffs__plan-text {
+  margin-bottom: 4px;
 }
 
 .tariffs__plan-price {
@@ -72,7 +80,7 @@
 
 .tariffs__plan-item {
   position: relative;
-  padding: 3px 0 3px 16px;
+  padding: 2px 0 2px 16px;
 }
 
 .tariffs__plan-item::before {

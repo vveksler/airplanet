@@ -1,0 +1,49 @@
+.intro-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/intro-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.intro-page::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.intro-page__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-page__logo {
+  margin-bottom: 40px;
+}
+
+.intro-page__btn {
+  border: 1px solid #4b73b5;
+  padding: 13px 43px 13px 18px;
+  color: #4b73b5;
+}
+
+.intro-page__btn::before {
+  background: url("../../images/icons/figure_active.png") no-repeat;
+}
+
+.intro-page__btn::after {
+  opacity: 0;
+  background: url("../../images/icons/figure.png") no-repeat;
+}

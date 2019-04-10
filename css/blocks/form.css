@@ -48,17 +48,6 @@
 }
 
 .form__radio {
-  margin-bottom: 35px;
-  width: 50%;
-  display: inline-block;
-  text-align: left;
-}
-
-.form__radio-title {
-  margin-bottom: 8px;
-}
-
-.form__radio-btns {
   display: inline-block;
 }
 
@@ -72,7 +61,7 @@
   margin-right: 0;
 }
 
-.form__radio-trigger_custom {
+.form__radio-custom {
   margin-right: 2px;
   vertical-align: middle;
   position: relative;
@@ -83,14 +72,14 @@
   border-radius: 50%;
 }
 
-.form__radio-trigger_title {
+.form__radio-title {
   font-size: 14px;
   font-weight: 300;
   display: inline-block;
   vertical-align: middle;
 }
 
-input[type="radio"]:checked + .form__radio-trigger_custom:before {
+input[type="radio"]:checked + .form__radio-custom:before {
   content: "";
   display: block;
   position: absolute;
@@ -102,52 +91,18 @@ input[type="radio"]:checked + .form__radio-trigger_custom:before {
   border-radius: 50%;
 }
 
-input[type="radio"]:checked + .form__radio-trigger_custom {
+input[type="radio"]:checked + .form__radio-custom {
   border-color: #4b73b5;
-}
-
-textarea,
-input {
-  border-radius: 4px;
-  outline: none;
-  resize: none;
-  border: 1px solid #fff;
-}
-
-input:focus,
-textarea:focus {
-  border: 1px solid #4b73b5;
-}
-
-.form__btn-custom {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  text-transform: uppercase;
-  padding: 14px 42px 14px 20px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #4b73b5;
-  letter-spacing: 2.4px;
-  border-radius: 4px;
-  transition: 0.6s;
-}
-
-.form__btn-custom::after,
-.form__btn-custom::before {
-  content: "";
-  position: absolute;
-  height: 14px;
-  width: 16px;
-  top: 50%;
-  right: 19px;
-  transform: translateY(-50%);
-  transition: 0.6s;
 }
 
 .form__btns {
   margin-top: 4px;
+}
+
+.form__btn-custom {
+  padding: 14px 42px 14px 20px;
+  color: #fff;
+  background-color: #4b73b5;
 }
 
 .form__btn-custom:hover {
@@ -155,15 +110,10 @@ textarea:focus {
   background-color: #ffffff;
 }
 
-.form__btn-custom:hover::after {
-  opacity: 1;
-}
-
 .form__btn-custom::before {
   background: url("../../images/icons/figure.png") no-repeat;
 }
 
 .form__btn-custom::after {
-  opacity: 0;
   background: url("../../images/icons/figure_active.png") no-repeat;
 }
