@@ -1,12 +1,13 @@
 .header {
   background: #4b73b5;
   color: #fff;
-  padding: 12.5px 0;
-  margin-bottom: 14px;
+  padding: 13px 0;
+  margin-bottom: 23px;
 }
 
 .header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
 }

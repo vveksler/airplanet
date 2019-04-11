@@ -3,12 +3,10 @@
 }
 
 .last-news__articles {
-  margin-top: 37px;
-  margin-bottom: 34px;
-}
-
-.last-news__articles .article__description {
-  padding: 0 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 27px;
 }
 
 .last-news__article:last-child {
@@ -17,5 +15,5 @@
 }
 
 .last-news__pagination {
-  text-align: center;
+  margin-left: 23%;
 }

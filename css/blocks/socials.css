@@ -1,6 +1,5 @@
 .socials {
-  display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 .socials__title {
@@ -21,8 +20,8 @@
 .socials__link {
   border-radius: 50%;
   display: block;
+  background-color: #ffffff;
   background: url("../../images/icons/socials/socials-sprites.png") no-repeat;
-  background-color: #d2def3;
   background-repeat: no-repeat;
   transition: 0.3s;
   width: 20px;
@@ -30,7 +29,7 @@
 }
 
 .socials__link:hover {
-  background-color: #ffffff;
+  background-color: #d2def3;
 }
 
 .socials__link--vk {

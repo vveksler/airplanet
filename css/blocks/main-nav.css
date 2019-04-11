@@ -1,5 +1,13 @@
+.main-nav {
+  margin-bottom: 12px;
+}
+
+.main-nav__list {
+  display: flex;
+}
+
 .main-nav__item {
-  margin-bottom: 26px;
+  margin-right: 94px;
 }
 
 .main-nav__item:last-child {
@@ -8,7 +16,7 @@
 
 .main-nav__link {
   color: #4b73b5;
-  padding-left: 40px;
+  padding-left: 36px;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 2.4px;
@@ -22,11 +30,10 @@
 
 .main-nav__icon::before,
 .main-nav__icon::after {
-  left: 13%;
+  left: 0;
   top: -1px;
   content: "";
   position: absolute;
-  transform: translateX(-50%);
   background: url("../../images/icons/main-nav/sprites.png") no-repeat;
   transition: 0.3s;
 }

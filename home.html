@@ -44,6 +44,57 @@
         <div class="container container--main">
           <!--SIDEBAR-->
           <aside class="sidebar">
+            <div class="tariffs__plan">
+              <h4 class="tariffs__title">Топ-тариф</h4>
+              <div class="tariffs__plan-content">
+                <h5 class="tariffs__plan-title">Стандарт</h5>
+                <div class="tariffs__plan-description">
+                  <div class="tariffs__plan-text">
+                    <p>Создан для вашего</p>
+                    <p>комфортного отдыха</p>
+                  </div>
+                  <ul class="tariffs__plan-list">
+                    <li class="tariffs__plan-item">
+                      Питание включено
+                    </li>
+                    <li class="tariffs__plan-item">
+                      Багаж (5 кг)
+                    </li>
+                    <li class="tariffs__plan-item">
+                      Детское кресло
+                    </li>
+                  </ul>
+                </div>
+                <div class="tariffs__plan-price">
+                  $19
+                </div>
+              </div>
+            </div>
+            <!--SOCIALS-->
+            <div class="socials">
+              <div class="socials__title">Наши социальные сети</div>
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--vk"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--fb"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--google"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--tw"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--mail"></a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <!--PAGE CONTENT-->
+          <main class="page-content">
+            <!--MAIN NAVIGATION-->
             <nav class="main-nav">
               <ul class="main-nav__list">
                 <li class="main-nav__item active">
@@ -72,110 +123,14 @@
                 </li>
               </ul>
             </nav>
-          </aside>
-          <!--PAGE CONTENT-->
-          <main class="page-content">
             <!--BANNER-->
             <div class="banner">
               <img
                 src="./images/airplane.jpg"
                 alt="airplane"
-                class="visuallyHidden"
+                class="banner__img"
                 />
             </div>
-            <!--SECTION Tariffs-->
-            <section class="tariffs">
-              <h2 class="section-title">
-                Тарифы
-              </h2>
-              <div class="section-content">
-                <ul class="tariffs__options">
-                  <li class="tariffs__plan">
-                    <div
-                      class="tariffs__plan-icon
-                      tariffs__plan-icon--standard"></div>
-                    <div class="tariffs__plan-content">
-                      <h5 class="tariffs__plan-title">Стандарт</h5>
-                      <div class="tariffs__plan-description">
-                        <div class="tariffs__plan-text">
-                          <p>Создан для вашего</p>
-                          <p>комфортного отдыха</p>
-                        </div>
-                        <ul class="tariffs__plan-list">
-                          <li class="tariffs__plan-item">
-                            Питание включено
-                          </li>
-                          <li class="tariffs__plan-item">
-                            Багаж (5 кг)
-                          </li>
-                          <li class="tariffs__plan-item">
-                            Детское кресло
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tariffs__plan-price">
-                        $19
-                      </div>
-                    </div>
-                  </li>
-                  <li class="tariffs__plan">
-                    <div
-                      class="tariffs__plan-icon
-                      tariffs__plan-icon--favorite"></div>
-                    <div class="tariffs__plan-content">
-                      <h5 class="tariffs__plan-title">Премиум</h5>
-                      <div class="tariffs__plan-description">
-                        <div class="tariffs__plan-text">
-                          <p>Для любителей</p>
-                          <p>хороших впечатлений</p>
-                        </div>
-                        <ul class="tariffs__plan-list">
-                          <li class="tariffs__plan-item">
-                            Питание включено
-                          </li>
-                          <li class="tariffs__plan-item">
-                            Багаж (5 кг)
-                          </li>
-                          <li class="tariffs__plan-item">
-                            Детское кресло
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tariffs__plan-price">
-                        $39
-                      </div>
-                    </div>
-                  </li>
-                  <li class="tariffs__plan">
-                    <div
-                      class="tariffs__plan-icon tariffs__plan-icon--luxury"></div>
-                    <div class="tariffs__plan-content">
-                      <h5 class="tariffs__plan-title">Лакшери</h5>
-                      <div class="tariffs__plan-description">
-                        <div class="tariffs__plan-text">
-                          <p>Всё самое лучшее</p>
-                          <p>и незабываемое</p>
-                        </div>
-                        <ul class="tariffs__plan-list">
-                          <li class="tariffs__plan-item">
-                            Питание включено
-                          </li>
-                          <li class="tariffs__plan-item">
-                            Багаж (5 кг)
-                          </li>
-                          <li class="tariffs__plan-item">
-                            Детское кресло
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="tariffs__plan-price">
-                        $99
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </section>
             <!--SECTION last-news-->
             <section class="last-news">
               <h2 class="section-title">Последние новости</h2>
@@ -294,34 +249,12 @@
             </p>
             <p class="copyright">Автор работы: <a href="/">Векслер Вадим</a></p>
           </div>
-          <!--LOGO-->
-          <div class="footer__center">
+
+          <div class="footer__rigth">
+            <!--LOGO-->
             <a href="/" class="logo">
               <img src="./images/logo.png" alt="logo" class="logo__img" />
             </a>
-          </div>
-          <div class="footer__rigth">
-            <!--SOCIALS-->
-            <div class="socials">
-              <div class="socials__title">Наши социальные сети</div>
-              <ul class="socials__list">
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--vk"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--fb"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--google"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--tw"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--mail"></a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </footer>
