@@ -44,6 +44,44 @@
         <div class="container container--main">
           <!--SIDEBAR-->
           <aside class="sidebar">
+            <div class="add-info">
+              <div class="add-info__content">
+                <p>
+                  Вопросы по бронированию билетов в нашей авиакомпании
+                  принимаются.
+                  Для этого можно оставить
+                  <a href="#" class="underline">заявку на сайте</a> или же
+                  позвонить
+                  по номеру круглосуточной поддержки
+                  <a href="tel:88000039210">8 (800) 00-392-10</a>
+                </p>
+              </div>
+            </div>
+            <!--SOCIALS-->
+            <div class="socials">
+              <div class="socials__title">Наши социальные сети</div>
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--vk"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--fb"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--google"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--tw"></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link socials__link--mail"></a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <!--PAGE CONTENT-->
+          <main class="page-content">
+            <!--MAIN NAVIGATION-->
             <nav class="main-nav">
               <ul class="main-nav__list">
                 <li class="main-nav__item">
@@ -64,7 +102,7 @@
                 </li>
                 <li class="main-nav__item">
                   <a
-                    href="./team.html"
+                    href="/team.html"
                     class="main-nav__link main-nav__icon
                     main-nav__icon--team">
                     Экипаж
@@ -72,18 +110,6 @@
                 </li>
               </ul>
             </nav>
-          </aside>
-          <!--PAGE CONTENT-->
-          <main class="page-content">
-            <!--breadcrumbs-->
-            <ul class="breadcrumbs">
-              <li class="breadcrumbs__item">
-                <a href="./home.html" class="breadcrumbs__link">Главная</a>
-              </li>
-              <li class="breadcrumbs__item active">
-                <span class="breadcrumbs__link">Отзывы</span>
-              </li>
-            </ul>
             <section class="reviews">
               <h2 class="section-title">
                 Отзывы
@@ -186,7 +212,7 @@
                 </li>
               </ul>
               <!--PAGINATION-->
-              <div class="pagination reviews__pagination">
+              <div class="pagination">
                 <span class="pagination__title">Страница 1 из 7</span>
                 <span class="pagination__btn active">&lt;</span>
                 <ul class="pagination__list">
@@ -215,84 +241,72 @@
                 <a href="#" class="pagination__btn">&gt;</a>
               </div>
             </section>
+            <section class="reviews-form">
+              <div class="reviews-form__container">
+                <div class="form__wrap">
+                  <form action="form.php" class="form">
+                    <div class="form__inner">
+                      <h2 class="section-title">
+                        Оставить отзыв
+                      </h2>
+                      <div class="form__content">
+                        <div class="form__row">
+                          <label class="form__field">
+                            <span class="form__field-title">Ваше имя</span>
+                            <input type="text" name="name" class="form__input"
+                              placeholder="Андрей" />
+                          </label>
+                          <label class="form__field">
+                            <span class="form__field-title">Ссылка на профиль VK</span>
+                            <input type="text" name="social" class="form__input"
+                              placeholder="vk.com/example" />
+                          </label>
+                        </div>
+                        <div class="form__row">
+                          <label class="form__field form__field--textarea">
+                            <span class="form__field-title">Текст отзыва</span>
+                            <textarea name="text-message" class="form__textarea"
+                              placeholder="Мне понравилось"></textarea>
+                          </label>
+                        </div>
+                        <div class="form__row">
+                          <div class="form__field">
+                            <span class="form__field-title">Отображать фото в
+                              отзыве?</span>
+                            <div class="form__radio">
+                              <label for="yes" class="form__radio-trigger">
+                                <input type="radio" id="yes" name="photo"
+                                  class="visuallyHidden" />
+                                <span class="form__radio-custom"></span>
+                                <span class="form__radio-title">Да</span>
+                              </label>
+                              <label for="no" class="form__radio-trigger">
+                                <input type="radio" id="no" name="photo"
+                                  class="visuallyHidden" />
+                                <span class="form__radio-custom"></span>
+                                <span class="form__radio-title">Нет</span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="form__btns">
+                            <label for="send-btn" class="form__send-btn">
+                              <button class="visuallyHidden" type="submit"
+                                id="send-btn">
+                                Отправить
+                              </button>
+                              <span class="btn-custom form__btn-custom">Отправить</span>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
           </main>
         </div>
       </div>
-      <div class="add-info">
-        <div class="container">
-          <div class="add-info__content">
-            <p>
-              Вопросы по бронированию билетов в нашей авиакомпании принимаются.
-              Для этого можно оставить
-              <a href="#" class="underline">заявку на сайте</a> или же позвонить
-              по номеру круглосуточной поддержки
-              <a href="tel:88000039210">8 (800) 00-392-10</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <section class="reviews-form">
-        <div class="reviews-form__container">
-          <div class="form__wrap">
-            <form action="form.php" class="form">
-              <div class="form__inner">
-                <h2 class="section-title">
-                  Оставить отзыв
-                </h2>
-                <div class="form__content">
-                  <div class="form__row">
-                    <label class="form__field">
-                      <span class="form__field-title">Ваше имя</span>
-                      <input type="text" name="name" class="form__input"
-                        placeholder="Андрей" />
-                    </label>
-                    <label class="form__field">
-                      <span class="form__field-title">Ссылка на профиль VK</span>
-                      <input type="text" name="social" class="form__input"
-                        placeholder="vk.com/example" />
-                    </label>
-                  </div>
-                  <div class="form__row">
-                    <label class="form__field form__field--textarea">
-                      <span class="form__field-title">Текст отзыва</span>
-                      <textarea name="text-message" class="form__textarea"
-                        placeholder="Мне понравилось"></textarea>
-                    </label>
-                  </div>
-                  <div class="form__row">
-                    <div class="form__field">
-                      <span class="form__field-title">Отображать фото в отзыве?</span>
-                      <div class="form__radio">
-                        <label for="yes" class="form__radio-trigger">
-                          <input type="radio" id="yes" name="photo"
-                            class="visuallyHidden" />
-                          <span class="form__radio-custom"></span>
-                          <span class="form__radio-title">Да</span>
-                        </label>
-                        <label for="no" class="form__radio-trigger">
-                          <input type="radio" id="no" name="photo"
-                            class="visuallyHidden" />
-                          <span class="form__radio-custom"></span>
-                          <span class="form__radio-title">Нет</span>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="form__btns">
-                      <label for="send-btn" class="form__send-btn">
-                        <button class="visuallyHidden" type="submit"
-                          id="send-btn">
-                          Отправить
-                        </button>
-                        <span class="btn-custom form__btn-custom">Отправить</span>
-                      </label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
       <!--FOOTER-->
       <footer class="footer">
         <div class="container footer__content">
@@ -303,34 +317,12 @@
             </p>
             <p class="copyright">Автор работы: <a href="/">Векслер Вадим</a></p>
           </div>
-          <!--LOGO-->
-          <div class="footer__center">
+
+          <div class="footer__rigth">
+            <!--LOGO-->
             <a href="/" class="logo">
               <img src="./images/logo.png" alt="logo" class="logo__img" />
             </a>
-          </div>
-          <div class="footer__rigth">
-            <!--SOCIALS-->
-            <div class="socials">
-              <div class="socials__title">Наши социальные сети</div>
-              <ul class="socials__list">
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--vk"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--fb"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--google"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--tw"></a>
-                </li>
-                <li class="socials__item">
-                  <a href="" class="socials__link socials__link--mail"></a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </footer>

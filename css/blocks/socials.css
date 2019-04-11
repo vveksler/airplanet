@@ -1,10 +1,12 @@
 .socials {
   text-align: center;
+  margin-top: 27px;
 }
 
 .socials__title {
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .socials__item {
@@ -37,17 +39,17 @@
 }
 
 .socials__link--fb {
-  background-position: -92px 3px;
+  background-position: -92px 4px;
 }
 
 .socials__link--google {
-  background-position: -72px 3px;
+  background-position: -72px 4px;
 }
 
 .socials__link--tw {
-  background-position: -20px 3px;
+  background-position: -20px 4px;
 }
 
 .socials__link--mail {
-  background-position: -46px 3px;
+  background-position: -46px 4px;
 }

@@ -1,15 +1,19 @@
 .add-info {
-  background-color: #4bb56b;
+  margin-top: 4px;
+  padding: 22px 2px;
+  background-color: #4b73b5;
   background-image: url("../../images/signs.png");
-  margin-bottom: 8px;
 }
 
 .add-info__content {
-  padding: 39px 210px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
+}
+
+.add-info__content p {
+  text-align: center;
 }
 
 .add-info__content a {

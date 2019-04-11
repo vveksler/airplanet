@@ -86,14 +86,6 @@ p {
   justify-content: space-between;
 }
 
-.maincontent {
-  margin-bottom: 45px;
-}
-
-.maincontent--reviews {
-  padding-top: 24px;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
