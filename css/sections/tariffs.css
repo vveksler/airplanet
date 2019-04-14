@@ -6,13 +6,17 @@
 .tariffs__plan {
   display: flex;
   border-radius: 4px;
-      padding: 23px 0 19px 0;
+  padding: 23px 0 19px 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   border: 1px solid #e8e9ed;
   transition: 0.3s;
+}
+
+.tariffs__plan:hover {
+  background-color: rgba(75, 115, 181, .3);
 }
 
 .tariffs__title {
