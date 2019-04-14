@@ -5,6 +5,7 @@
 
 /* BLOCKS */
 @import url("./blocks/header.css");
+@import url("./blocks/logo.css");
 @import url("./blocks/contacts.css");
 @import url("./blocks/dropdown.css");
 @import url("./blocks/sidebar.css");
