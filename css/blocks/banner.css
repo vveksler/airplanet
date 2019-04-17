@@ -1,4 +1,13 @@
 .banner {
-  margin-bottom: 15px;
-  margin-top: 13px;
+  height: 302px;
+  position: relative;
+  margin-top: 11px;
+}
+
+.banner__bg {
+  position: absolute;
+  background-image: url(../../images/airplanet.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 3000px;
 }

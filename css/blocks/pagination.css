@@ -1,6 +1,5 @@
 .pagination {
   margin-left: 23%;
-  width: 100%;
   font-size: 14px;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .pagination__btn.active {
-  color: #4b73b5;
+  color: #656464;
 }
 
 .pagination__btn:hover {

@@ -9,12 +9,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
 }
 
 .footer__left {
   line-height: 17px;
-  padding-right: 118px;
+  padding-right: 120px;
 }
 
 .footer__left, .footer__center, .footer__rigth {

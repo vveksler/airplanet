@@ -1,7 +1,6 @@
 .tariff {
   display: flex;
-  border-radius: 4px;
-  padding: 23px 0 19px 0;
+  padding: 26px 0 19px 0px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -21,7 +20,7 @@
   margin-bottom: 24px;
 }
 
-.tariff__title {
+.tariff__subtitle {
   text-align: center;
   font-size: 10.78px;
   font-weight: bold;
