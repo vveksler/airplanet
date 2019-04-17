@@ -15,7 +15,7 @@
   margin-right: 0;
 }
 
-.tariff:hover {
+.tariff.active {
   border: 1px solid #e8e9ed;
 }
 
