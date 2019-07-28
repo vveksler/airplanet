@@ -11,13 +11,13 @@
   justify-content: space-between;
 }
 
-.footer__left {
-  line-height: 17px;
-  padding-right: 120px;
-}
-
 .footer__left, .footer__center, .footer__rigth {
   width: 33.33%;
+}
+
+.footer__left {
+  width: 21%;
+  line-height: 17px;
 }
 
 .footer__center {
