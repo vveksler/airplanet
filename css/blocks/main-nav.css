@@ -22,11 +22,10 @@
 
 .main-nav__icon::before,
 .main-nav__icon::after {
-  left: 13%;
+  left: 0;
   top: -1px;
   content: "";
   position: absolute;
-  transform: translateX(-50%);
   background: url("../../images/icons/main-nav/sprites.png") no-repeat;
   transition: 0.3s;
 }

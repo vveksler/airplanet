@@ -1,11 +1,8 @@
 .tariff {
-  border-radius: 4px;
   display: flex;
-  margin-right: 25px;
-  padding: 43px 32px;
+  border-radius: 4px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   cursor: pointer;
   border: 1px solid transparent;
   transition: 0.3s;

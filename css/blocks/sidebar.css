@@ -1,5 +1,4 @@
-.sidebar {
+.sidebar--main {
   width: 18%;
-  padding-top: 31px;
-  padding-left: 16px;
+  padding: 31px 16px;
 }

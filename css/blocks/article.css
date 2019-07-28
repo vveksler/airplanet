@@ -11,13 +11,13 @@
 }
 
 .article__left {
-  max-width: 160px;
-  width: 20%;
+  width: 19%;
   margin-top: 8px;
   margin-bottom: 15px;
 }
 
 .article__avatar {
+  max-width: 160px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -34,12 +34,18 @@
   transition: 1s;
 }
 
+.article__avatar-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .article__avatar:hover::before {
   opacity: 0;
 }
 
 .article__description {
-  flex: 1;
+  width: 81%;
 }
 
 .article__date {
