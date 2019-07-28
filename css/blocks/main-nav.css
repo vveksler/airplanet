@@ -13,7 +13,7 @@
   font-weight: bold;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
 .main-nav__icon {
@@ -27,7 +27,7 @@
   content: "";
   position: absolute;
   background: url("../../images/icons/main-nav/sprites.png") no-repeat;
-  transition: 0.3s;
+  transition: opacity 0.3s;
 }
 
 .main-nav__item .main-nav__icon::after {

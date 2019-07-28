@@ -14,7 +14,7 @@
 
 .add-info__content a {
   font-weight: bold;
-  transition: 0.3s;
+  transition: opacity 0.3s;
 }
 
 .add-info__content a:hover {

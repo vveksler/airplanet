@@ -32,19 +32,19 @@
 .footer__text a {
   font-weight: bold;
   text-decoration: underline;
-  transition: 3.s;
+  transition: opacity 3.s;
 }
 
 .footer__text a:hover {
-  opacity: .7;
+  opacity: 0.7;
   text-decoration: none;
 }
 
 .copyright a {
-  transition: .3s;
+  transition: opacity 0.3s;
   font-weight: bold;
 }
 
 .copyright a:hover {
-  opacity: .7;
+  opacity: 0.7;
 }

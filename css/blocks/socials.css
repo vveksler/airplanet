@@ -24,7 +24,7 @@
   background: url("../../images/icons/socials/socials-sprites.png") no-repeat;
   background-color: #d2def3;
   background-repeat: no-repeat;
-  transition: 0.3s;
+  transition: background-color 0.3s;
   width: 20px;
   height: 20px;
 }

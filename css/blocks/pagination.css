@@ -16,7 +16,7 @@
   text-decoration: none;
   vertical-align: middle;
   color: #221f1f;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
 .pagination__btn.active {
@@ -59,7 +59,7 @@
   display: block;
   font-size: 14px;
   color: #221f1f;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
 .pagination__link:hover {

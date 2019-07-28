@@ -31,7 +31,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(75, 115, 181, 0.3);
-  transition: 1s;
+  transition: opacity 1s;
 }
 
 .article__avatar-img {

@@ -7,7 +7,7 @@
   display: block;
   font-size: 21px;
   font-weight: bold;
-  transition: 0.3s;
+  transition: opacity 0.3s;
 }
 
 .contacts__tel:hover {
@@ -19,7 +19,7 @@
   font-weight: bold;
   opacity: 0.7;
   text-decoration: underline;
-  transition: 0.3s;
+  transition: opacity 0.3s;
 }
 
 .contacts__dropdown {
